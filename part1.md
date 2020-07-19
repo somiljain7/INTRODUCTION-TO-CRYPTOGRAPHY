@@ -6,3 +6,7 @@
 3.  values are split into shares which are distributed amongst the workers.
 
 4.  Values are split into shares which are  distributed amongst workers.
+
+
+# MAJOR DIFFERENCE BETWEEN "MPC" and "HE"
+ At a high level HE is often replaceable by MPC, and vice versa. HE requiring little interaction but expensive computation, whereas MPC uses cheap computation but a significant amount of interaction. Or in other words, MPC replaces expensive computation with interaction between two or more parties.
