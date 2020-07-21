@@ -1,3 +1,6 @@
-# SOME-CRYPTO-STUFF
+# INTRODUCTION-TO-CRYPTOGRAPHY
 
-WILL ADD SOME NEW STUFF SOON
+Bonjour, mon ami
+Bienvenue dans mes notes cryptographiques
+
+# will add more things soon(private -> public) 
