@@ -1,0 +1,14 @@
+Elliptic Curve
+
+ECC stands for Elliptic Curve Cryptography, which is an approach to public key cryptography based on elliptic curves over finite fields. Cryptographic algorithms usually use a mathematical equation to decipher keys; ECC, while still using an equation, takes a different approach.
+
+SSL/TLS Certificates most commonly use RSA keys and the recommended size of these keys keeps increasing (e.g. from 1024 bit to 2048 bit a few years ago) to maintain sufficient cryptographic strength. An alternative to RSA is ECC. Both key types share the same important property of being asymmetric algorithms (one key for encrypting and one key for decrypting). However, ECC can offer the same level of cryptographic strength at much smaller key sizes - offering improved security with reduced computational and storage requirements.
+
+In Use Today?  - Yes. NIST has recommended 15 elliptic curves that can be used as standard. Some argue that it is weak because vulnerabilities have been found that allow an attacker to execute certain types of attack although there are ways to combat these. Other reasons for a lack in popularity are to do with the random key generator created by NIST, dubbed Dual Elliptic Curve Deterministic Random Bit Generator or DUAL_EC_DRBG for short. Some believed that the generator (developed by the NSA) wasn’t as random as you might think – it was later discontinued. 
+It’s All Math
+
+As quantum computing comes hurtling towards us, many wonder what cryptography will be like. Some argue that our traditional approach of increasing key size to combat increased computing power will hit its limit. Others think that might not necessarily be the case. 
+
+If there’s anything to take away from this, it’s that algorithms all have a “margin of safety” as Bruce Schneier put it. We must recognise that with enough computing power and time, it is possible to break an algorithm, but if we continue to work together and stay on top of computational performance, we can find new algorithms to replace the old ones.
+
+If you think we’ve missed an algorithm in this post, feel free to tell us and we would be happy to include it. Keep your eyes peeled for a follow up blog on cryptographic hash functions including SHA and MD. 

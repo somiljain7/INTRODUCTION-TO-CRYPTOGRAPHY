@@ -1,0 +1,5 @@
+Cryptography at its very core is math. Pure, simple, undiluted math. Math created the algorithms that are the basis for all encryption. And encryption is the basis for privacy and security on the internet. So, we love math. Even if it is a tad complicated. With that being said, algorithms have to be built to work against computers. As computers get smarter, algorithms become weaker and we must therefore look at new solutions. This is how cryptography evolves to beat the bad guys.
+
+So how is it done? First you need to build a cryptosystem that is both confidential and authentic. This cryptosystem is responsible for creating the key(s) that will be used to encrypt and then decrypt the data or message. A number of signing algorithms have been created over the years to create these keys, some of which have since been deprecated as computing power has increased. 
+
+Before going through some of the main and most popular algorithms known in cryptography, it might be a good idea to recap on a couple of terms you will probably come across a lot during this article.
