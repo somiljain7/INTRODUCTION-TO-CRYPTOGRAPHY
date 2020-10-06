@@ -34,3 +34,16 @@ Each column of four bytes is now transformed using a special mathematical functi
 Addroundkey
 
 The 16 bytes of the matrix are now considered as 128 bits and are XORed to the 128 bits of the round key. If this is the last round then the output is the ciphertext. Otherwise, the resulting 128 bits are interpreted as 16 bytes and we begin another similar round.
+
+
+
+## Decryption Process
+
+The process of decryption of an AES ciphertext is similar to the encryption process in the reverse order. Each round consists of the four processes conducted in the reverse order −
+
+    Add round key
+    Mix columns
+    Shift rows
+    Byte substitution
+
+Since sub-processes in each round are in reverse manner, unlike for a Feistel Cipher, the encryption and decryption algorithms needs to be separately implemented, although they are very closely related.
